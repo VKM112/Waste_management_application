@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/dust"
+    tools:context=".Selection">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/waste"
+                android:layout_width="wrap_content"
+                android:layout_height="271dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/plastic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Plastic waste"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+            <ImageButton
+                android:id="@+id/waste1"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/organic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+
+                android:text="Organic waste"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+            <ImageButton
+                android:id="@+id/waste2"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/elec" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Electronic waste"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                />
+            <ImageButton
+                android:id="@+id/waste3"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/med" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Medical Waste"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

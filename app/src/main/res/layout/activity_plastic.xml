@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/dust"
+    tools:context=".plastic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/plastic"
+                android:layout_marginHorizontal="20dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plastic"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plastic is a non-biodegradable waste.It cannot be decomposed by microorganisms.This is one of the reasons why usage of plastics need to be avoided.Where possible, plastics need to be recycled."
+                android:textAlignment="center"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="15dp"
+                android:textColor="#454444"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blue dustbin"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginTop="40dp"
+                android:textColor="#1F4DF1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plastic waste should be disposed in 'Blue Dustbin'"
+                android:textAlignment="center"
+                android:layout_marginBottom="40dp"
+                android:textSize="20dp"
+                android:textColor="#1F4DF1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="To find the nearest dustbin please click on the next button below"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#0B0B0B"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mapbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="#8BF89A"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
